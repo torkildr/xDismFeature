@@ -21,10 +21,15 @@ This DSC module enables the install and uninstall of features that require the u
 
 *   **Source**: (Optional) Source for features with packages removed. Setting source will also make dism act in "/LimitAccess", or offline-mode.
 
+*   **EnableAllParentFeatures**: Determines whether to install all parent features when required (default = true)
+
 ## Versions
 
 ### Unreleased
+
 *   Added Source parameter
+*   Added dism.exe error handling
+*   Added EnableAllParentFeatures parameter
 
 ### 1.0.0
 
